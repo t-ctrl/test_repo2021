@@ -29,6 +29,28 @@ printf("%c",ptr[j]-32);
 
 }
 
+//
+
+
+printf("\n");
+}//function
+
+//string compare function
+void my_strcmp(char *p1,char *p2){
+
+printf("two strings are %s %s\n",p1,p2);
+
+if(strcmp(p1,p2)!=0)
+	printf("strigs are not same");
+else
+	printf("strigs are same\n");
+
+}
+
+void main(){
+
+char name[20];
+char str1[20],str2[20];
 printf("\n");
 }
 
@@ -43,4 +65,8 @@ scanf("%s",name);
 
 function(name);
 
+printf("Enter two strings\n ");
+scanf("%s %s",str1,str2);
+my_strcmp(str1,str2);
+printf("\n");
 }
