@@ -19,6 +19,17 @@ printf("%c",*(ptr+j));
 
 }
 printf("\n");
+//add to capitalize each letter
+
+printf("print name in capital letters\n");
+
+for(j=0;j<len;j++){
+
+printf("%c",ptr[j]-32);
+
+}
+
+printf("\n");
 }
 
 
