@@ -45,13 +45,21 @@ else
 	printf("strigs are same\n");
 
 }
+void cmp_num(int a, int b){
 
+if(a==b)
+	printf("number are same\n");
+else
+	printf("number are not same\n");
+
+}
 //main function
 
 void main(){
 
 char name[20];
-
+int a,b;
+char str1[20],str2[20];
 printf("Enter a name\n");
 
 scanf("%s",name);
@@ -61,5 +69,9 @@ function(name);
 printf("Enter two strings\n ");
 scanf("%s %s",str1,str2);
 my_strcmp(str1,str2);
+
+printf("enter two numbers\n");
+scanf("%d %d\n",&a,&b);
+cmp_num(a,b);
 printf("\n");
 }
