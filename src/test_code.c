@@ -51,7 +51,7 @@ else
 void main(){
 
 char name[20];
-
+char str1[20],str2[20];
 printf("Enter a name\n");
 
 scanf("%s",name);
