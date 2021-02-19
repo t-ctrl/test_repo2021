@@ -28,12 +28,11 @@ for(j=0;j<len;j++){
 printf("%c",ptr[j]-32);
 
 }
-
 //
-
 
 printf("\n");
 }//function
+
 
 //string compare function
 void my_strcmp(char *p1,char *p2){
@@ -47,13 +46,7 @@ else
 
 }
 
-void main(){
-
-char name[20];
-char str1[20],str2[20];
-printf("\n");
-}
-
+//main function
 
 void main(){
 
