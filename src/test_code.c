@@ -46,12 +46,20 @@ else
 
 }
 
+void add(int a, int b){
+
+printf("sum of 2 numbers is \n",a+b);
+
+
+}
+
 //main function
 
 void main(){
 
 char name[20];
 char str1[20],str2[20];
+int a,b;
 printf("Enter a name\n");
 
 scanf("%s",name);
@@ -61,5 +69,9 @@ function(name);
 printf("Enter two strings\n ");
 scanf("%s %s",str1,str2);
 my_strcmp(str1,str2);
+
+printf("Enter 2 numbers\n");
+scanf("%d %d",&a,&b);
+
 printf("\n");
 }
