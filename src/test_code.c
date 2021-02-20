@@ -45,7 +45,7 @@ else
 	printf("strigs are same\n");
 
 }
-void num_cmp(int a, int b){
+void cmp(int a, int b){
 
 if(a==b)
 	printf("number are same\n");
@@ -81,7 +81,7 @@ my_strcmp(str1,str2);
 
 printf("enter two numbers\n");
 scanf("%d %d\n",&a,&b);
-num_cmp(a,b);
+cmp(a,b);
 printf("Enter 2 numbers\n");
 scanf("%d %d",&a,&b);
 
