@@ -53,6 +53,13 @@ else
 	printf("number are not same\n");
 
 }
+void add(int a, int b){
+
+printf("sum of 2 numbers is \n",a+b);
+
+
+}
+
 //main function
 
 void main(){
@@ -60,6 +67,8 @@ void main(){
 char name[20];
 int a,b;
 char str1[20],str2[20];
+char str1[20],str2[20];
+int a,b;
 printf("Enter a name\n");
 
 scanf("%s",name);
@@ -73,5 +82,8 @@ my_strcmp(str1,str2);
 printf("enter two numbers\n");
 scanf("%d %d\n",&a,&b);
 cmp_num(a,b);
+printf("Enter 2 numbers\n");
+scanf("%d %d",&a,&b);
+
 printf("\n");
 }
